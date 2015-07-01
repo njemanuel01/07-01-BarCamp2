@@ -1,0 +1,12 @@
+          <div id="lake">
+            <img src="assets/lake.png" class="center">
+          </div>
+          <div id="trees">
+            <img src="assets/trees.png" class="center">
+          </div>
+          <div id="hero">
+            <img src="assets/hero_logo.png" class="center">
+          </div>
+          <div id="date">
+            <img src="assets/date.png" class="center">
+          </div>
