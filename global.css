@@ -14,6 +14,7 @@ body {
 }
 
 .center {
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -232,5 +233,77 @@ hr {
 }
 
 #FAQ {
-  
+  background: #CAECF8;
+}
+
+#FAQ ul {
+  list-style-type: none;
+  margin-left: -25px;
+}
+
+#FAQ li {
+  color: #754C30;
+  font-family: 'Rokkitt', serif;
+  font-size: 24px;
+}
+
+#FAQ li img {
+  position: relative;
+  top: 20px;
+  padding: 10px;
+}
+
+#faq {
+  padding-top: 50px;
+  margin-bottom: 50px;
+  width: 30%;
+  display: block;
+}
+
+#tower {
+  display: block;
+  margin-top: 200px;
+  width: 100%;
+}
+
+#registerlogo {
+  display: block;
+  position: relative;
+  width: 900px;
+  height: 775px;
+  margin-left: -450px;
+  left: 50%;
+}
+
+#footer {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+}
+
+#hillback {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  z-index: 20;
+}
+
+#hillfront {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  z-index: 50;
+}
+
+#sign {
+  position: absolute;
+  margin: 70px 0 0 -12.5%;
+  margin-top: 45%;
+  width: 25%;
+  left: 50%;
+  z-index: 80;
 }
