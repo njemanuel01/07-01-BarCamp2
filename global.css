@@ -1,5 +1,3 @@
-font-family: 'Rokkitt', serif;
-
 /* Box model fix */
 html {
   box-sizing: border-box;
@@ -25,7 +23,6 @@ body {
 }
 
 #logo {
-  display: block;
   position: relative;
   background: url(assets/mountains.jpg) repeat-x center center / cover;
   width: 900px;
@@ -34,13 +31,8 @@ body {
   left: 50%;
 }
 
-#logo img {
-  max-height: 500px;
-}
-
 .lake {
   width: 100%;
-  height: auto;
   position: absolute;
   top: 0;
   z-index: 20;
@@ -48,7 +40,6 @@ body {
 
 .trees {
   width: 100%;
-  height: auto;
   position: absolute;
   top: 0;
   z-index: 50;
@@ -66,10 +57,10 @@ body {
 .date {
   position: absolute;
   bottom: 0;
-  width: 25%;
+  width: 20%;
   margin-bottom: 2%;
   left: 50%;
-  margin: 70px 0 0 -12.5%;
+  margin: 0 0 0 -8.5%;
   z-index: 80;
 }
 
