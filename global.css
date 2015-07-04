@@ -127,6 +127,10 @@ body {
   text-align: center;
 }
 
+.talktypes {
+  height: 400px;
+}
+
 .talktypes img {
   display: block;
   width: 30%;
@@ -154,7 +158,8 @@ hr {
   margin-top: 70px;
   padding-bottom: 70px;
   background-image: url(assets/board.jpg);
-  background-repeat: repeat-y;
+  
+  background-repeat: repeat;
 }
 
 #eventschedule img {
@@ -297,4 +302,47 @@ hr {
   width: 25%;
   left: 50%;
   z-index: 80;
+}
+
+@media (min-width: 500px) {
+  .talktypes {
+    width: 50%;
+    float: left;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 700px) {
+  .s2col1 {
+    width: 50%;
+    float: left;
+  }
+  
+  .s2col1 {
+    width: 50%;
+    float: left;
+  }
+  
+  .eventcol1 {
+    width: 50%;
+    float: left;
+  }
+  
+  .eventcol2 {
+    width: 50%;
+    float: left;
+  }
+  
+}
+
+@media (min-width: 850px) {
+  .s3col1 {
+    width: 50%;
+    float: left;
+  }
+  
+  .s3col2 {
+    width: 50%;
+    float: left;
+  }
 }
